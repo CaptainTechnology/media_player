@@ -1,0 +1,139 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+}
+
+body{
+    overflow: hidden;
+    
+}
+
+.container{
+    background:#343333;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.palyer{
+    background: rgb(234, 204, 209);
+    height: 600px;
+    width: 350px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.palyer .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+.palyer .nav div{
+    height: 35px;
+    width: 35px;
+    background:#fff;
+    color:#f53192;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(255, 26, 27, 0.22);
+}
+
+
+
+.main{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.main h1{
+    color: #333;
+    font-size:20px;
+    line-height: 30px;
+    font-weight:400;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.main p{
+    font-size: 14px;
+    color: #333;
+}
+
+.main img{
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0 10px 60px rgba(255, 26, 27, 0.22);
+}
+#progress{
+-webkit-appearance: none;
+width: 90%;
+height: 5px;
+background: #f53192;
+border-radius: 5px;
+cursor: pointer;
+margin: 60px 0 5px 0;
+
+}
+
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background: #f53192;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+
+}
+.controls{
+display: flex;
+align-items: center;
+justify-content:center;
+margin-bottom: 40px;
+}
+.controls div{
+    height:40px;
+    width: 40px;
+    background:#fff;
+    color:#f53192;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(255, 26, 27, 0.22);
+    margin: 0 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.controls :nth-child(2){
+    height: 60px;
+    width: 60px;
+    background: #f53192;
+    color: #fff;
+}
+.controls :nth-child(2) i{    
+    font-size: 25px;
+}
+
+.controls div i{
+    font-size: 15px;
+}
